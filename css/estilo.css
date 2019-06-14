@@ -1,0 +1,217 @@
+h1{
+    text-align: center;
+    color: #007bff;
+    padding: 10px;
+    font-size: 250%;
+    font-family: Georgia, Serif;
+    background: #7bd39d;
+    border-radius: 3px;
+    
+}
+
+.container{
+   padding: 40px;
+    border: solid 2px black;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    margin-block-end: 50px;
+    
+
+}
+
+.enca img{
+    float:left;
+    padding: 8px;
+
+
+}
+
+h2{
+    color: #3d93f0;
+    text-align: center;
+
+}
+
+.contenido{
+    padding: 50px;
+    margin: 50px;
+    background: #b1c2d3;
+    border: solid 2px blue;
+    padding: 70px 20px;
+    padding-top: 30px;
+     
+
+}
+
+.agendar{
+    justify-content: center;
+}
+
+
+
+p{
+    color: #0d8054;
+    text-align: justify;
+
+}
+
+.politica{
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.ingresar{
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background: #7bdcef;
+}
+
+.ini{
+    color: #170e8d;
+    margin: 10px;
+}
+
+.reg{
+    margin: 20px;
+    padding: 10px;
+    color: rgb(32, 20, 207);
+    text-align: center;
+    
+    border: solid 1px black;
+    
+}
+
+.contra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 10px;
+    color: rgb(129, 9, 5);
+    text-align: center;
+    
+    
+    
+    
+}
+
+.nuevo{
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.cabeza img {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    
+}
+
+.pie{
+    text-align: center;
+    color: #1f66b3;
+    font-size: 20px;
+    margin: 15px 0px;
+    background: #b1c2d3;
+    padding: 10px;
+    border: solid 2px blue;
+    border-radius: 3px;
+}
+.recuperar{
+    text-align: center;
+}
+
+.recu{
+    margin: 100px 300px;
+    border: solid 1px black;
+    padding: 20px;
+    text-align: center;
+    background: #7bdcef;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu {
+    margin: 20px;
+    background: #557cfc;
+    border-radius: 3px;
+}
+
+
+.nav-link:hover, .navbar-brand:hover{
+    background-color: #FAE5D3;
+    color: white;
+    
+    cursor: pointer;
+}
+.nav-link, .navbar-brand{
+        
+        cursor: pointer;
+        padding: 5px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.mr-auto .nav-item .nav-link, .navbar-light .navbar-brand{
+    color: #FAE5D3;
+    font-family: Impact, Charcoal, sans-serif;
+
+}
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+
+.navbar-toggler{
+    color: #349122;
+    border-radius: 5px;
+    border: solid gray 3px;
+    padding: 0px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link1:hover{
+    color: red;
+    
+    
+}
+
+.home{
+    border: solid 2px blue;
+    margin: 35px 15px;
+    padding: 50px 20px;
+    background: #87cdd6;
+    border-radius: 3px;
+
+}
+
+.datos{
+    color:black;
+    margin: 0px 100px;
+}
+
+.foto{
+    margin: 100px 20px;
+}
+
+.confirmar{
+    margin-top: 5px;
+}
+
+.tema {
+    padding: 123px 0px;
+    border-radius: 60px;
+    
+}
+
