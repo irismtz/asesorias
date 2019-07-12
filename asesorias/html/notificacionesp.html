@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <title>Notificaciones</title>
+
+
+
+<body background="../imagenes/fundo.jpg">
+
+    <div class="container ">
+
+        <div class="row">
+            <div class="col-md-7">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notificaciones</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@sustaita</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="../indexp.html">Cerrar sesión</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+        <!--seccion header-->
+        <div class="row cabecera">
+            <div class="col-md-4">
+                <img src="../imagenes/ut.jpeg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-8">
+                <h1>Asesorias Academicas UTNG</h1>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--seccion barra de contenido-->
+
+        <div class="row menu">
+            <div class="col-md-12">
+
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand" href="perfil.html">| Inicio |</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="asesoriap.html" tabindex="-1" aria-disabled="true">| Agendar
+                                    asesorias obligatorias |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cancelarp.html" tabindex="-1" aria-disabled="true">| Cancelar
+                                    asesoria |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="asistenciap.html" tabindex="-1" aria-disabled="true">| Lista
+                                    de asistencia |</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-12">
+                <table>
+
+                    <style>
+                        table {
+                            font-family: arial, sans-serif;
+                            border-collapse: collapse;
+                            width: 100%;
+                        }
+
+                        td,
+                        th {
+                            border: 1px solid #dddddd;
+                            text-align: left;
+                            padding: 8px;
+                        }
+
+                        tr:nth-child(even) {
+                            background-color: #dddddd;
+                        }
+                    </style>
+
+
+                    <tr>
+                        <th>Número</th>
+                        <th>Fecha</th>
+                        <th>Origen</th>
+                        <th>Contenido</th>
+                        <th>Estatus</th>
+
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>12/06/2019 </td>
+                        <td>@iris</td>
+                        <td>Sistemas Operativos</td>
+                        <td> 
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                                Aceptar
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="0" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalCenterTitle">Aviso</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                                La cita ha sido aceptada
+                                        </div>
+                                        <div class="modal-footer">
+
+                                            <button data-dismiss="modal" type="button"
+                                                class="btn btn-primary">Aceptar</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#example">
+                                Cancelar
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="example" tabindex="0" role="dialog"
+                                aria-labelledby="example" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="example">Aviso</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            La cita ha sido cancelada
+                                        </div>
+                                        <div class="modal-footer">
+
+                                            <button data-dismiss="modal" type="button"
+                                                class="btn btn-primary">Aceptar</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>14/06/2019 </td>
+                        <td>@conchita</td>
+                        <td>Programación Web</td>
+                        <td><button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#exampleModalCenter">
+                            Aceptar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="0" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Aviso</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            La cita ha sido aceptada
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button data-dismiss="modal" type="button"
+                                            class="btn btn-primary">Aceptar</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#example">
+                            Cancelar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="example" tabindex="0" role="dialog"
+                            aria-labelledby="example" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="example">Aviso</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        La cita ha sido cancelada
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button data-dismiss="modal" type="button"
+                                            class="btn btn-primary">Aceptar</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>15/06/2019 </td>
+                        <td>@dianaL</td>
+                        <td>Enrutamiento Rip versión 2</td>
+                        <td><button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#exampleModalCenter">
+                            Aceptar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="0" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Aviso</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            La cita ha sido aceptada
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button data-dismiss="modal" type="button"
+                                            class="btn btn-primary">Aceptar</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#example">
+                            Cancelar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="example" tabindex="0" role="dialog"
+                            aria-labelledby="example" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="example">Aviso</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        La cita ha sido cancelada
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button data-dismiss="modal" type="button"
+                                            class="btn btn-primary">Aceptar</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>   
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+
+
+        <!--seccion pie de página-->
+        <div class="row">
+            <div class=col-md-12>
+                <footer class="pie">
+                    Derechos reservados 2019
+                </footer>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
